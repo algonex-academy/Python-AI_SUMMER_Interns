@@ -1,0 +1,49 @@
+DAY-1: 
+What they ship by end of day 1
+
+A file called hello.py that prints their name, college, and 'I am building a job tracker.' Pushed to a GitHub repo called job-tracker. Public. With a README.
+
+Concepts taught today
+
+Terminal navigation (cd, ls, mkdir)
+python --version, pip, venv
+print(), variables, f-strings
+VS Code: open folder, run file
+git init → add → commit → push
+
+Session schedule
+
+python --version
+pip --version
+git --version
+
+pwd
+cd Desktop
+mkdir job-tracker
+cd job-tracker
+
+name = "Ravi"
+college = "GEC Trichy"
+print(f"My name is {name}")
+print(f"I study at {college}")
+print("I am building a job tracker.")
+
+git init
+git add hello.py
+git commit -m "Day 1: first Python script"
+git push origin main
+
+# Their suggestions might be:
+print("Today I applied to: 0 jobs")
+print("Target companies: TCS, Infosys, startups")
+print("Status: just getting started")
+
+README and second commit
+
+Open README.md. They write: project name, what it does, how to run it. No template. Their own words. Second commit. Second push. Two commits on day 1.
+
+# Job Tracker
+A CLI tool to track my job applications.
+## How to run
+python hello.py
+
