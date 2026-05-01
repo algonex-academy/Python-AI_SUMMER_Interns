@@ -1,0 +1,10 @@
+A script that asks the user for a company name and job role, then prints a formatted application entry. If the company field is empty, it prints an error. Committed and pushed
+
+Concepts taught today
+
+input() — reading from user
+if / elif / else
+Comparison operators: ==, !=, len()
+String methods: .strip(), .upper(), .lower()
+Debugging: reading a traceback line by line
+
